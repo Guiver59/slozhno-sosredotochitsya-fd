@@ -2,3 +2,29 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --background-image: url("../images/cover-image-dark.png");
+  --default-side-margin: 10px;
+  --default-text-size: 18px;
+  --minheight: 668px;
+
+  --dark-blue: #000028;
+  --light-pink: #f1b2ce;
+  --magenta: #db00ff;
+  --fuqsy: #ff0070;
+  --transparent-fuqsy: #ff007066;
+  --dark-gray: #353430;
+  --transparent-gray: #32312d66;
+  --nowhite: #fff1f7;
+  --white-pink: #ffc2e6;
+  --pink: #ff8dcb;
+
+  --main-header-color: var(--magenta);
+  --header-color: var(--dark-blue);
+  --section-header-color: var(--fuqsy);
+  --accent-color: var(--fuqsy);
+  --card-text-color: var(--light-pink);
+  --background-color: var(--dark-blue);
+  --button-color: var(--fuqsy);
+  --button-transparent-color: var(--transparent-fuqsy);
+}
