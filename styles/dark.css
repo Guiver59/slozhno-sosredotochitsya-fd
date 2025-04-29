@@ -19,6 +19,7 @@
   --button-color: var(--fuqsy);
   --button-transparent-color: var(--transparent-fuqsy);  
   --section-header-color: var(--fuqsy);
+  --decorated-color: var(--fuqsy);
 }
 
 .theme-dark .page {

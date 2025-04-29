@@ -27,4 +27,5 @@
   --background-color: var(--dark-blue);
   --button-color: var(--fuqsy);
   --button-transparent-color: var(--transparent-fuqsy);
+  --decorated-color: var(--fuqsy);
 }

@@ -30,8 +30,8 @@
   height: 25px;
   margin-top: var(--default-side-margin);
   margin-right: var(--default-side-margin);
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--decorated-color);
+  border-right: 1px solid var(--decorated-color);
 }
 
 .decorated-zone::after {
@@ -44,8 +44,8 @@
   height: 25px;
   margin-bottom: var(--default-side-margin);
   margin-left: var(--default-side-margin);
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--decorated-color);
+  border-left: 1px solid var(--decorated-color);
 }
 
 .label__rec {

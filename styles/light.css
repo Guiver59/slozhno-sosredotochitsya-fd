@@ -20,6 +20,7 @@
   --background-color: var(--nowhite);
   --button-color: var(--dark-gray);
   --button-transparent-color: var(--transparent-gray);
+  --decorated-color: var(--dark-gray);
 }
 
 .theme-light .page {
@@ -49,6 +50,7 @@
     --background-color: var(--nowhite);
     --button-color: var(--dark-gray);
     --button-transparent-color: var(--transparent-gray);
+    --decorated-color: var(--dark-gray);
   }
 
   .label__rec { 
