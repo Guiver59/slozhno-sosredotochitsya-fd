@@ -4,10 +4,10 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-family: "IBM Plex mono", sans-serif;
   background-color: var(--background-color);
-  background-attachment: fixed;
   background-image: var(--background-image);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -75,7 +75,6 @@
 }
 
 .header__theme-menu-button {
-  cursor: pointer;
   min-width: 70px;
   min-height: 26px;
   border: none;
@@ -84,6 +83,7 @@
   line-height: 18px;
   text-transform: lowercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -121,12 +121,12 @@
 }
 
 .header__description {
-  font-weight: bold;
   grid-row-start: 4;
   grid-row-end: 5;
   margin-top: 25px;
   margin-right: var(--default-side-margin);
   margin-left: var(--default-side-margin);
+  font-weight: bold;
   font-size: var(--default-text-size);
   line-height: 23.4px;
 }
