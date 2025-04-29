@@ -50,6 +50,11 @@
     --button-color: var(--dark-gray);
     --button-transparent-color: var(--transparent-gray);
   }
+
+  .label__rec { 
+    display: none; 
+  }
+
 }
 
 /*в макете тень у заголовка в подвале цвета как у темной темы. Возможно это ошибка. Если нет, то нужно раскоментировать этот код
