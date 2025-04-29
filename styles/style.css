@@ -224,6 +224,10 @@
   border-bottom: 1px solid var(--card-text-color);
 }
 
+.link__decoration:focus {
+  outline: none;
+}
+
 .link__decoration:focus-visible {
   border: 1px solid var(--card-text-color);
 }
