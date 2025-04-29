@@ -120,6 +120,7 @@
 }
 
 .header__description {
+  font-weight: bold;
   grid-row-start: 4;
   grid-row-end: 5;
   margin-top: 25px;
